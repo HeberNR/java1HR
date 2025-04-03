@@ -1,12 +1,23 @@
 package Ejemplo1;
 
+import java.util.Scanner;
+
 public class Ejercicio1Condicionales {
 
     public static void main(String[] args) {
 
-        int num1 = 3;
-        int num2 = 8;
-        int num3 = 44;
+        Scanner sc = new Scanner(System.in);
+
+        int num1;
+        int num2;
+        int num3;
+
+        System.out.println("Ingrese el valor del primer número: ");
+        num1 = sc.nextInt();
+        System.out.println("Ingrese el valor del segundo número: ");
+        num2 = sc.nextInt();
+        System.out.println("Ingrese el valor del segundo número: ");
+        num3 = sc.nextInt();
 
         if  (num1 > num2 && num1 > num3) {
             System.out.println("El numero mayor es: " + num1);

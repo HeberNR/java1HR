@@ -8,7 +8,7 @@ public class Ejercicio2Condicionales {
 
         Scanner sc = new Scanner(System.in);
 
-        float resultado = 0f;
+        double resultado = 0;
 
         int ope;
 
@@ -35,7 +35,7 @@ public class Ejercicio2Condicionales {
             System.out.println("El resultado es: " + resultado);
         } else if (ope == 3) {
             System.out.println("Se realizará una división");
-            resultado = (float) num1 / num2;
+            resultado = (double) num1 / num2;
             System.out.println("El resultado es: " + resultado);
         }
         else {
