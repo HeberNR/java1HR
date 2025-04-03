@@ -12,14 +12,14 @@ public class Ejercicio2Condicionales {
 
         int ope;
 
-        int num1;
-        int num2;
+        double num1;
+        double num2;
 
 
         System.out.println("Ingrese el primer número: ");
-        num1 = sc.nextInt();
+        num1 = sc.nextDouble();
         System.out.println("Ingrese el segundo número:");
-        num2 = sc.nextInt();
+        num2 = sc.nextDouble();
 
 
         System.out.println("Seleccione una operación a realizar:\n1.Suma\n2.Resta\n3.Dividir\n4.Multiplicar");

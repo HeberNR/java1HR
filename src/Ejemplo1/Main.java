@@ -1,6 +1,14 @@
 package Ejemplo1;
 
+import java.util.logging.Logger;
+
 public class Main {
+
+    // Primer paso, creo constante
+    public static final Logger LOGGER
+            = Logger.getLogger(Main.class.getName());
+                               //miClase.class.getName()
+
     public static void main(String[] args) {
 
         // comentario con una sola linea
@@ -18,6 +26,14 @@ public class Main {
         System.out.println("La edad es: " + edad);
         System.out.println("El stock es: " + stock);
         System.out.println("El precio es: " + precio);
+
+
+        LOGGER.info("Esto es un logger");
+        LOGGER.info("La edad es: " + edad);
+        LOGGER.warning("Esta es una advertencia.");
+        LOGGER.severe("Aca paso algo grave..");
+
+
 
         String nombreProducto = "Nootebook HP";
         System.out.println("El nombre del producto es: " + nombreProducto);
